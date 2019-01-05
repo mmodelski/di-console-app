@@ -15,7 +15,7 @@ namespace DependencyInjectionConsoleApp
 			var pizza = pizzaService.GetPizza(1);
 
 			var logger = LogManager.GetCurrentClassLogger();
-			logger.Info($"Pizza");
+			logger.Info("Pizza");
 			logger.Info($"Id: {pizza.Id}");
 			logger.Info($"Name: {pizza.Name}");
 			logger.Info($"Prive: {pizza.Price}");
